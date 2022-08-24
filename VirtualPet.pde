@@ -2,9 +2,9 @@ void setup(){
   size(400,400);
 }
 void draw(){
-  //circle
+  //background
   fill(200,200,0);
-  ellipse(200,200,250,250);
+  ellipse(200,200,600,600);
   //body
   fill(0,100,50);
   arc(200, 200, 90, 90, PI, PI+PI);
@@ -24,7 +24,6 @@ void draw(){
   System.out.println(mouseY);
   //eyes
   ellipse(151,185,2,2);
-  //mouth
   line(151,193,134,192);
   
 }
