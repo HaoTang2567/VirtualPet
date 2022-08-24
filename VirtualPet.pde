@@ -19,4 +19,7 @@ void draw(){
   triangle(152,178,141,183,143,164);
   System.out.println(mouseX);
   System.out.println(mouseY);
+  //eyes
+  ellipse(151,185,2,2);
+  line(151,193,134,192);
 }
